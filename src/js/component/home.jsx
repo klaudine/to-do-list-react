@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-import DefaultE from "./listGroup";
-import toDoList from "./toDoList";
+import List from "./List";
+import Table from "./Table";
+import ToDoList from "./ToDoList";
+
 
 
 
@@ -8,9 +10,8 @@ import toDoList from "./toDoList";
 const Home = () => {
 	return (
 		<div>
-			<listGroup />
-
-			<toDoList />
+			<Table />
+			<ToDoList />
 		</div>
 	
 )

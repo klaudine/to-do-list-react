@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const toDoList = () => {
+const ToDoList = () => {
     const [todo, setTodo] = useState('')
 	const [todos, setTodos] = useState([])
 
@@ -29,4 +29,4 @@ const toDoList = () => {
 	);
 }
 
-export default toDoList;
+export default ToDoList;
